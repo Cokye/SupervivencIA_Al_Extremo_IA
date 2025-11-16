@@ -2,7 +2,13 @@
 Proyecto de la universidad de crear multiagentes en un entorno y que interactuen entre si como objetivo final sobrevivir mas
 # Entorno
 Para esto se creo un mini entorno usando Miniconda usando Phyton 3.11 ya que es mas compatible con las librerias usadas.
-El entorno se llama "rl_env", activan el entorno y luego abren el archivo llamado "Superviencia"
+El entorno se llama "rl_env", activan el entorno y luego abren el archivo llamado "Superviencia".
+# Como iniciar el entorno
+PREREQUITISITO: TENER MINICONDA O ANACONDA
+El entorno se llama "environment.yml", los pasos son los siguientes:
+- Mueva el archivo a un lugar en el escritorio que usted requiera
+- Abra el cmd y ejecute el comando "conda env create -f environment.yml"
+- Y estaria instalado ahora solamente ejecute "conda activate rl_env" y tendre el entorno
 # Dependencias
 Se usaron las siguientes librerias: 
 - pip install cmake
