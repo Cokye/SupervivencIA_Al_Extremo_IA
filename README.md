@@ -6,8 +6,9 @@ El entorno se llama "rl_env", activan el entorno y luego abren el archivo llamad
 # Como iniciar el entorno
 PREREQUITISITO: TENER MINICONDA O ANACONDA
 El entorno se llama "environment.yml", los pasos son los siguientes:
-- Mueva el archivo a un lugar en el escritorio que usted requiera
-- Abra el cmd y ejecute el comando "conda env create -f environment.yml"
+- Mueva el archivo a un lugar en el escritorio que usted requiera y extraelo
+- Abra el cmd en la misma carpeta que dejo el archivo y ejecute el comando "conda env create -f environment.yml"
+- Luego le pedira aceptar tiene que colocar "a" y enter
 - Y estaria instalado ahora solamente ejecute "conda activate rl_env" y tendre el entorno
 # Dependencias
 Se usaron las siguientes librerias: 
